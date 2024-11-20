@@ -54,12 +54,18 @@
       .instagram-media {
         margin: 0 auto; 
       }
-      .centerbox {
-        display: flex; 
-        justify-content: center; 
-        align-items: center;
-        flex-direction: column;
-      }
+   
+      .instagram-wrapper {
+  display: flex;
+  justify-content: center; /* Centraal uitlijnen */
+  align-items: center;
+  background-color: #ffffff; /* Kleur van de achtergrond van het kader */
+  border: double 10px #d45a82; /* Uniforme rand */
+  padding: 20px; /* Ruimte binnen het kader */
+  max-width: 600px; /* Maximale breedte van het kader */
+  margin: 20px auto; /* Centreer op de pagina */
+}
+
     </style>
 </head>
   
@@ -168,13 +174,13 @@
        <br>✄ Een veer trekt de vleugels weer naar beneden wanneer de elektromagneet uitgeschakeld is.
   </div>
    <h2>Een voorbeeld van een creator van zulke kleren is:</h2>
-<div class="centerbox">
 <div class="content-box">
   <div style="text-align: center;">
     Dit is 
     <a href="https://www.instagram.com/shebuildsrobots/reel/C80S_L4xB_B/" target="_blank">@shebuildsrobots</a>.
     
     <br>
+    <div class="instagram-wrapper">
     <blockquote 
       class="instagram-media" 
       data-instgrm-captioned 
